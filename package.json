@@ -1,0 +1,39 @@
+{
+    "name": "dealer-fonts",
+    "version": "1.0.0",
+    "description": "Set of fonts for car dealers",
+    "license": "MIT",
+    "main": "src/scss/dealer-fonts.scss",
+    "style": "dist/css/dealer-fonts.css",
+    "files": [
+        "LICENSE",
+        "dist/css/dealer-fonts.css"
+    ],
+    "devDependencies": {
+        "cross-env": "^5.2.0",
+        "laravel-mix": "^2.1",
+        "stylelint": "^9.4",
+        "stylelint-config-standard": "^18.2"
+    },
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "test": "yarn dev && stylelint dist/css/dealer-fonts.css"
+    },
+    "repository": "andrey-helldar/dealer-fonts",
+    "bugs": "https://github.com/andrey-helldar/dealer-fonts/issues",
+    "stylelint": {
+        "extends": "stylelint-config-standard",
+        "rules": {
+            "font-family-no-duplicate-names": [
+                true,
+                {
+                    "ignoreFontFamilyNames": [
+                        "monospace"
+                    ]
+                }
+            ]
+        }
+    }
+}

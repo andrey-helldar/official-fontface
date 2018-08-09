@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Corporate S Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+    src: local('Daimler CS'),
+    local('Corporate S Regular'),
+    url('../../../fonts/DaimlerCS-Regular/DaimlerCS-Regular.eot'),
+    url('../../../fonts/DaimlerCS-Regular/DaimlerCS-Regular.woff2') format('woff2'),
+    url('../../../fonts/DaimlerCS-Regular/DaimlerCS-Regular.woff') format('woff'),
+    url('../../../fonts/DaimlerCS-Regular/DaimlerCS-Regular.ttf') format('ttf'),
+    url('../../../fonts/DaimlerCS-Regular/DaimlerCS-Regular.svg#DaimlerCS-Regular');
+}
