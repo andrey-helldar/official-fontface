@@ -1,33 +1,40 @@
 {
     "name": "dealer-fonts",
-    "version": "1.0.1",
     "description": "Set of fonts for car dealers",
+    "author": "Andrey Helldar",
+    "version": "1.0.1",
     "license": "MIT",
     "keywords": [
         "dealer",
         "fonts",
         "mercedes-benz"
     ],
-    "main": "src/scss/dealer-fonts.scss",
     "style": "dist/css/dealer-fonts.css",
-    "files": [
-        "LICENSE",
-        "dist/css/dealer-fonts.css"
-    ],
+    "sass": "src/scss/dealer-fonts.scss",
     "devDependencies": {
-        "cross-env": "^5.2.0",
+        "cross-env": "^5.2",
         "laravel-mix": "^2.1",
         "stylelint": "^9.4",
         "stylelint-config-standard": "^18.2"
     },
+    "engine": "node >= 6",
     "scripts": {
         "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "test": "yarn dev && stylelint dist/css/dealer-fonts.css"
     },
-    "repository": "andrey-helldar/dealer-fonts",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:andrey-helldar/dealer-fonts.git"
+    },
     "bugs": "https://github.com/andrey-helldar/dealer-fonts/issues",
+    "files": [
+        "dist",
+        "src",
+        "LICENSE",
+        "README.md"
+    ],
     "stylelint": {
         "extends": "stylelint-config-standard",
         "rules": {
