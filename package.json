@@ -5,8 +5,8 @@
     "version": "1.0.3",
     "license": "MIT",
     "keywords": ["dealer", "fonts", "fontface", "mercedes-benz", "hyundai"],
-    "style": "dist/css/dealer-fonts.css",
-    "sass": "src/scss/dealer-fonts.scss",
+    "style": "dist/css/dealers-fontface.css",
+    "sass": "src/scss/dealers-fontface.scss",
     "devDependencies": {
         "cross-env": "^5.2",
         "laravel-mix": "^2.1",
@@ -18,13 +18,13 @@
         "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "test": "yarn dev && stylelint dist/css/dealer-fonts.css"
+        "test": "yarn dev && stylelint dist/css/dealers-fontface.css"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:andrey-helldar/dealer-fonts.git"
+        "url": "git@github.com:andrey-helldar/dealers-fontface.git"
     },
-    "bugs": "https://github.com/andrey-helldar/dealer-fonts/issues",
+    "bugs": "https://github.com/andrey-helldar/dealers-fontface/issues",
     "files": [
         "dist",
         "src",
