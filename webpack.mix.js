@@ -10,5 +10,4 @@ mix
     .sass(path + 'dealers/mercedes-benz.scss', 'dist/css')
 
     .disableNotifications()
-    .sourceMaps()
     .version();
