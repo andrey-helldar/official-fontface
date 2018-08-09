@@ -1,14 +1,10 @@
 {
-    "name": "dealer-fonts",
+    "name": "dealers-fontface",
     "description": "Set of fonts for car dealers",
     "author": "Andrey Helldar",
     "version": "1.0.3",
     "license": "MIT",
-    "keywords": [
-        "dealer",
-        "fonts",
-        "mercedes-benz"
-    ],
+    "keywords": ["dealer", "fonts", "fontface", "mercedes-benz", "hyundai"],
     "style": "dist/css/dealer-fonts.css",
     "sass": "src/scss/dealer-fonts.scss",
     "devDependencies": {
