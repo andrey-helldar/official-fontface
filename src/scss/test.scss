@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@import url('https://necolas.github.io/normalize.css/8.0.0/normalize.css');
+@import "dealer-fonts";
+
+// Table of Contents:
+//
+//  0. Base
+//  1. Daimler Mercedes-Benz
+//  2. Hyundai
+//
+//
+// 0. Base
+//// ==========================================================================
+
+/* Base */
+.container {display: flex; flex-direction: row; justify-content: space-evenly; padding: 20px;}
+
+.container .block {border: 1px solid rgba(0, 0, 0, .2); padding: 20px;}
+
+// 1. Daimler Mercedes-Benz
+//// ==========================================================================
+// Mercedes-Benz: Head
+.mercedes-benz-cac-regular { font-family: 'Corporate A Condensed'; font-weight: 400; }
+
+// Mercedes-Benz: Text
+.mercedes-benz-cs-regular { font-family: 'Corporate S Regular'; font-weight: 400;}
+
+.mercedes-benz-cs-demi { font-family: 'Corporate S Bold'; font-weight: 600;}
+
+// 2. Hyundai
+//// ==========================================================================
+// Hyundai: Head
+.hyundai-sans-head-bold { font-family: 'HyundaiSansHead'; font-weight: 700; font-style: normal; }
+
+.hyundai-sans-head-medium { font-family: 'HyundaiSansHead'; font-weight: 500; font-style: normal; }
+
+.hyundai-sans-head-regular { font-family: 'HyundaiSansHead'; font-weight: normal; font-style: normal; }
+
+.hyundai-sans-head-light { font-family: 'HyundaiSansHead'; font-weight: 300; font-style: normal; }
+
+// Hyundai: Text
+.hyundai-sans-text-bold { font-family: 'HyundaiSans'; font-weight: 600; font-style: normal; }
+
+.hyundai-sans-text-bold-italic { font-family: 'HyundaiSans'; font-weight: 600; font-style: italic; }
+
+.hyundai-sans-text-medium { font-family: 'HyundaiSans'; font-weight: 500; font-style: normal; }
+
+.hyundai-sans-text-medium-italic { font-family: 'HyundaiSans'; font-weight: 500; font-style: italic; }
+
+.hyundai-sans-text-italic { font-family: 'HyundaiSans'; font-weight: normal; font-style: italic; }
+
+.hyundai-sans-text-regular { font-family: 'HyundaiSans'; font-weight: normal; font-style: normal; }

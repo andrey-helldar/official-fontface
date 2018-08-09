@@ -6,6 +6,7 @@ mix
     .setPublicPath('./dist')
 
     .sass(path + 'dealer-fonts.scss', 'dist/css')
+    .sass(path + 'test.scss', 'dist/css')
 
     .sass(path + 'dealers/mercedes-benz.scss', 'dist/css')
     .sass(path + 'dealers/hyundai.scss', 'dist/css')
