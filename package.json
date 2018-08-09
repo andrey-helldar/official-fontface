@@ -1,9 +1,13 @@
 {
     "name": "dealer-fonts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Set of fonts for car dealers",
     "license": "MIT",
-    "keywords": ["dealer", "fonts", "mercedes-benz"],
+    "keywords": [
+        "dealer",
+        "fonts",
+        "mercedes-benz"
+    ],
     "main": "src/scss/dealer-fonts.scss",
     "style": "dist/css/dealer-fonts.css",
     "files": [
