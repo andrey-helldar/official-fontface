@@ -4,21 +4,67 @@
     <meta charset="UTF-8">
     <title>Test page</title>
 
+    <link href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" rel="stylesheet">
     <link href="css/dealer-fonts.css" rel="stylesheet">
 
     <style>
-        .mb-cac-regular { font-family: 'Corporate A Condensed'; font-weight: 400;font-size: 30px; }
+        /* Base */
+        .container {display: flex; flex-direction: row; justify-content: space-evenly; padding: 20px;}
 
-        .mb-cs-regular { font-family: 'Corporate S Regular'; font-weight: 400;}
+        .container .block {border: 1px solid rgba(0, 0, 0, .2); padding: 20px;}
 
-        .mb-cs-demi { font-family: 'Corporate S Bold'; font-weight: 600;}
+        /* Mercedes-Benz */
+        .mercedes-benz-cac-regular { font-family: 'Corporate A Condensed'; font-weight: 400; font-size: 30px;}
+
+        .mercedes-benz-cs-regular { font-family: 'Corporate S Regular'; font-weight: 400;}
+
+        .mercedes-benz-cs-demi { font-family: 'Corporate S Bold'; font-weight: 600;}
+
+        /* Hyundai */
+        .hyundai-sans-head-bold { font-family: 'HyundaiSansHead'; font-weight: 700; font-style: normal; font-size: 30px}
+
+        .hyundai-sans-head-medium { font-family: 'HyundaiSansHead'; font-weight: 500; font-style: normal; font-size: 30px}
+
+        .hyundai-sans-head-regular { font-family: 'HyundaiSansHead'; font-weight: normal; font-style: normal; font-size: 30px}
+
+        .hyundai-sans-head-light { font-family: 'HyundaiSansHead'; font-weight: 300; font-style: normal; font-size: 30px}
+
+        .hyundai-sans-text-bold { font-family: 'HyundaiSans'; font-weight: 600; font-style: normal;}
+
+        .hyundai-sans-text-bold-italic { font-family: 'HyundaiSans'; font-weight: 600; font-style: italic;}
+
+        .hyundai-sans-text-medium { font-family: 'HyundaiSans'; font-weight: 500; font-style: normal;}
+
+        .hyundai-sans-text-medium-italic { font-family: 'HyundaiSans'; font-weight: 500; font-style: italic;}
+
+        .hyundai-sans-text-italic { font-family: 'HyundaiSans'; font-weight: normal; font-style: italic;}
+
+        .hyundai-sans-text-regular { font-family: 'HyundaiSans'; font-weight: normal; font-style: normal;}
     </style>
 </head>
 <body>
 
-<h3 class="mb-cac-regular">Mercedes-Benz CAC Regular</h3>
-<h3 class="mb-cs-regular">Mercedes-Benz CS Regular</h3>
-<h3 class="mb-cs-demi">Mercedes-Benz CS Demi</h3>
+<div class="container">
+    <div class="block">
+        <h3 class="mercedes-benz-cac-regular">Mercedes-Benz CAC Regular</h3>
+        <h3 class="mercedes-benz-cs-regular">Mercedes-Benz CS Regular</h3>
+        <h3 class="mercedes-benz-cs-demi">Mercedes-Benz CS Demi</h3>
+    </div>
+
+    <div class="block">
+        <h3 class="hyundai-sans-head-bold">HyundaiSans Head Bold</h3>
+        <h3 class="hyundai-sans-head-medium">HyundaiSans Head Medium</h3>
+        <h3 class="hyundai-sans-head-regular">HyundaiSans Head Regular</h3>
+        <h3 class="hyundai-sans-head-light">HyundaiSans Head Light</h3>
+
+        <p class="hyundai-sans-text-bold">HyundaiSans Text Bold</p>
+        <p class="hyundai-sans-text-bold-italic">HyundaiSans Text Bold Italic</p>
+        <p class="hyundai-sans-text-medium">HyundaiSans Text Medium</p>
+        <p class="hyundai-sans-text-medium-italic">HyundaiSans Text Medium Italic</p>
+        <p class="hyundai-sans-text-italic">HyundaiSans Text Italic</p>
+        <p class="hyundai-sans-text-regular">HyundaiSans Text Regular</p>
+    </div>
+</div>
 
 </body>
 </html>

@@ -27,7 +27,8 @@ yarn add --dev dealer-fonts
 
 The package contains official fonts of car dealers:
 
-* Daimler: Mercedes-Benz
+* Mercedes-Benz
+* Hyundai
 
 
 ## License

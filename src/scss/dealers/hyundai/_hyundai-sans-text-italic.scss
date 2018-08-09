@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'HyundaiSans';
+    font-weight: normal;
+    font-style: italic;
+
+    src: url('../../../fonts/HyundaiSans/HyundaiSansText-Italic/HyundaiSansText-Italic.eot'),
+    url('../../../fonts/HyundaiSans/HyundaiSansText-Italic/HyundaiSansText-Italic.eot?#iefix') format("embedded-opentype"),
+    url('../../../fonts/HyundaiSans/HyundaiSansText-Italic/HyundaiSansText-Italic.woff2') format('woff2'),
+    url('../../../fonts/HyundaiSans/HyundaiSansText-Italic/HyundaiSansText-Italic.woff') format('woff');
+}
