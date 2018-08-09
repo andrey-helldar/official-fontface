@@ -25,7 +25,9 @@ yarn add --dev dealer-fonts
 
 ## What does it do?
 
-The package contains official fonts of car dealers.
+The package contains official fonts of car dealers:
+
+* Daimler: Mercedes-Benz
 
 
 ## License
