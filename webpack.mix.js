@@ -1,9 +1,9 @@
 let mix = require('laravel-mix');
 
 const base_path = './src/scss/';
+const public_path = './dist/';
 const company_path = base_path + 'companies/';
-const public_path = './dist';
-const css_path = public_path + '/css';
+const css_path = public_path + 'css/';
 
 mix
     .setPublicPath(public_path)
