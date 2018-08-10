@@ -65,10 +65,10 @@ The package contains official fonts of dealers:
 
 #### Hyundai
 ```css
-.hyundai-sans-head-bold    { font-family: 'HyundaiSansHead'; font-weight: 700;    font-style: normal; font-size: 30px; }
-.hyundai-sans-head-medium  { font-family: 'HyundaiSansHead'; font-weight: 500;    font-style: normal; font-size: 30px; }
-.hyundai-sans-head-regular { font-family: 'HyundaiSansHead'; font-weight: normal; font-style: normal; font-size: 30px; }
-.hyundai-sans-head-light   { font-family: 'HyundaiSansHead'; font-weight: 300;    font-style: normal; font-size: 30px; }
+.hyundai-sans-head-bold    { font-family: 'HyundaiSansHead'; font-weight: 700;    font-style: normal; }
+.hyundai-sans-head-medium  { font-family: 'HyundaiSansHead'; font-weight: 500;    font-style: normal; }
+.hyundai-sans-head-regular { font-family: 'HyundaiSansHead'; font-weight: normal; font-style: normal; }
+.hyundai-sans-head-light   { font-family: 'HyundaiSansHead'; font-weight: 300;    font-style: normal; }
 
 .hyundai-sans-text-bold          { font-family: 'HyundaiSans'; font-weight: 600;    font-style: normal; }
 .hyundai-sans-text-bold-italic   { font-family: 'HyundaiSans'; font-weight: 600;    font-style: italic; }
@@ -85,7 +85,7 @@ The package contains official fonts of dealers:
 
 #### Mercedes-Benz
 ```css
-.mercedes-benz-cac-regular { font-family: 'Corporate A Condensed'; font-weight: 400; font-size: 30px; }
+.mercedes-benz-cac-regular { font-family: 'Corporate A Condensed'; font-weight: 400;  }
 .mercedes-benz-cs-regular  { font-family: 'Corporate S Regular';   font-weight: 400; }
 .mercedes-benz-cs-demi     { font-family: 'Corporate S Bold';      font-weight: 600; }
 ```
