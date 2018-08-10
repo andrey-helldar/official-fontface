@@ -1,6 +1,6 @@
 {
     "name": "dealers-fontface",
-    "description": "Set of fonts for dealers",
+    "description": "Set of official dealer fonts in SCSS",
     "author": "Andrey Helldar",
     "version": "1.0.5",
     "license": "MIT",

@@ -1,6 +1,6 @@
 # dealers-fontface
 
-Set of fonts for dealers
+Set of official dealer fonts in SCSS.
 
 ![dealers-fontface](https://user-images.githubusercontent.com/10347617/43892308-45fc1eb8-9bd4-11e8-8659-6ae4301658cd.png)
 
