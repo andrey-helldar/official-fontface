@@ -70,12 +70,12 @@ The package contains official fonts of dealers:
 .hyundai-sans-head-regular { font-family: 'HyundaiSansHead'; font-weight: normal; font-style: normal; }
 .hyundai-sans-head-light   { font-family: 'HyundaiSansHead'; font-weight: 300;    font-style: normal; }
 
-.hyundai-sans-text-bold          { font-family: 'HyundaiSans'; font-weight: 600;    font-style: normal; }
-.hyundai-sans-text-bold-italic   { font-family: 'HyundaiSans'; font-weight: 600;    font-style: italic; }
-.hyundai-sans-text-medium        { font-family: 'HyundaiSans'; font-weight: 500;    font-style: normal; }
-.hyundai-sans-text-medium-italic { font-family: 'HyundaiSans'; font-weight: 500;    font-style: italic; }
-.hyundai-sans-text-italic        { font-family: 'HyundaiSans'; font-weight: normal; font-style: italic; }
-.hyundai-sans-text-regular       { font-family: 'HyundaiSans'; font-weight: normal; font-style: normal; }
+.hyundai-sans-text-bold          { font-family: 'HyundaiSansText'; font-weight: 600;    font-style: normal; }
+.hyundai-sans-text-bold-italic   { font-family: 'HyundaiSansText'; font-weight: 600;    font-style: italic; }
+.hyundai-sans-text-medium        { font-family: 'HyundaiSansText'; font-weight: 500;    font-style: normal; }
+.hyundai-sans-text-medium-italic { font-family: 'HyundaiSansText'; font-weight: 500;    font-style: italic; }
+.hyundai-sans-text-italic        { font-family: 'HyundaiSansText'; font-weight: normal; font-style: italic; }
+.hyundai-sans-text-regular       { font-family: 'HyundaiSansText'; font-weight: normal; font-style: normal; }
 ```
 
 #### Isuzu
