@@ -8,8 +8,11 @@ mix
     .sass(path + 'dealers-fontface.scss', 'dist/css')
     .sass(path + 'test.scss', 'dist/css')
 
-    .sass(path + 'dealers/mercedes-benz.scss', 'dist/css')
+    .sass(path + 'dealers/ford.scss', 'dist/css')
     .sass(path + 'dealers/hyundai.scss', 'dist/css')
+    .sass(path + 'dealers/isuzu.scss', 'dist/css')
+    .sass(path + 'dealers/mercedes-benz.scss', 'dist/css')
+    .sass(path + 'dealers/mitsubishi.scss', 'dist/css')
 
     .disableNotifications()
     .version();

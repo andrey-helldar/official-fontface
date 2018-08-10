@@ -34,16 +34,17 @@
 .ford-antenna {
     &-black { font-family: 'FordAntenna'; font-weight: 900; font-style: normal; }
     &-bold { font-family: 'FordAntenna'; font-weight: 700; font-style: normal; }
-    &-medium { font-family: 'FordAntenna'; font-weight: 600; font-style: normal; }
-    &-regular { font-family: 'FordAntenna'; font-weight: normal; font-style: normal; }
+    &-semibold { font-family: 'FordAntenna'; font-weight: 600; font-style: normal; }
+    &-medium { font-family: 'FordAntenna'; font-weight: 500; font-style: normal; }
+    &-regular { font-family: 'FordAntenna'; font-weight: 400; font-style: normal; }
     &-light { font-family: 'FordAntenna'; font-weight: 300; font-style: normal; }
 
-    &-comp-black { font-family: 'FordAntennaComp'; font-weight: 900; font-style: normal; }
+    &-comp-black { font-family: 'FordAntennaComp'; font-weight: 900; font-style: normal; font-stretch: extra-condensed; }
 
     &-cond {
         &-bold { font-family: 'FordAntennaCond'; font-weight: 700; font-style: normal; }
-        &-medium { font-family: 'FordAntennaCond'; font-weight: 600; font-style: normal; }
-        &-regular { font-family: 'FordAntennaCond'; font-weight: normal; font-style: normal; }
+        &-medium { font-family: 'FordAntennaCond'; font-weight: 500; font-style: normal; }
+        &-regular { font-family: 'FordAntennaCond'; font-weight: 400; font-style: normal; }
     }
 }
 
