@@ -166,3 +166,10 @@
   src: local("Daimler CS Demi"), local("Corporate S Bold"), url(/fonts/DaimlerCS-Demi.eot?845615cb3f9beb2eae9614fad161055e), url(/fonts/DaimlerCS-Demi.eot?845615cb3f9beb2eae9614fad161055e) format("embedded-opentype"), url(/fonts/DaimlerCS-Demi.woff2?5c861ad9eb9f50506dbb3066c0c100c7) format("woff2"), url(/fonts/DaimlerCS-Demi.woff?bac9aa7dca460681a1190e4e33910e57) format("woff"), url(/fonts/DaimlerCS-Demi.ttf?3390cc531dcca55ac8d3f792bb2705eb) format("truetype"), url(/fonts/DaimlerCS-Demi.svg?b122ecafe3ad71572e80f81032e70ca0) format("svg");
 }
 
+@font-face {
+  font-family: 'Bitsumishi';
+  font-weight: 400;
+  font-style: normal;
+  src: local("Bitsumishi"), url(/fonts/Bitsumishi-Regular.eot?7593015a347bb03fad3e1d310d85132a), url(/fonts/Bitsumishi-Regular.eot?7593015a347bb03fad3e1d310d85132a) format("embedded-opentype"), url(/fonts/Bitsumishi-Regular.woff2?6aaad35e35e3e4009680f06526f66d84) format("woff2"), url(/fonts/Bitsumishi-Regular.woff?37a952ecb6bc4e70ac05f3ef2ac07793) format("woff"), url(/fonts/Bitsumishi-Regular.ttf?ed39a8afb2d51d539db624ecd956bed2) format("truetype"), url(/fonts/Bitsumishi-Regular.svg?67bdf33122dc357443d258d6ccc495d4) format("svg");
+}
+

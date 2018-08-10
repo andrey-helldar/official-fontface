@@ -9,6 +9,7 @@
 //  1. Ford
 //  2. Hyundai
 //  3. Mercedes-Benz
+//  4. Mitsibishi
 //
 //
 // 0. Base
@@ -73,4 +74,11 @@
     // Mercedes-Benz: Text
     &-cs-regular { font-family: 'Corporate S Regular'; font-weight: 400; font-style: normal; }
     &-cs-demi { font-family: 'Corporate S Bold'; font-weight: 600; font-style: normal; }
+}
+
+// 4. Mitsibishi
+//// ==========================================================================
+.mitsubishi {
+    // Mercedes-Benz: Head
+    &-regular { font-family: 'Bitsumishi'; font-weight: 400; font-style: normal; }
 }
