@@ -5,8 +5,8 @@ Set of official fonts of companies in SCSS.
 ![official-fontface](https://user-images.githubusercontent.com/10347617/43892308-45fc1eb8-9bd4-11e8-8659-6ae4301658cd.png)
 
 <p align="center">
-    <a href="https://yarn.pm/official-fontface"><img src="https://img.shields.io/npm/dt/official-fontface.svg?style=flat-square" alt="Total Downloads" /></a>
-    <a href="https://yarn.pm/official-fontface"><img src="https://img.shields.io/npm/v/official-fontface.svg?style=flat-square" alt="Latest Stable Version" /></a>
+    <a href="https://www.npmjs.com/package/official-fontface"><img src="https://img.shields.io/npm/dt/official-fontface.svg?style=flat-square" alt="Total Downloads" /></a>
+    <a href="https://www.npmjs.com/package/official-fontface"><img src="https://img.shields.io/npm/v/official-fontface.svg?style=flat-square" alt="Latest Stable Version" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/npm/l/official-fontface.svg?style=flat-square" alt="License" /></a>
 </p>
 
