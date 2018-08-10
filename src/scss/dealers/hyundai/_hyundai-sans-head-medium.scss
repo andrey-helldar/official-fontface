@@ -5,8 +5,9 @@
     font-weight: 500;
     font-style: normal;
 
-    src: url('../../../fonts/HyundaiSans/HyundaiSansHead-Medium/HyundaiSansHead-Medium.eot'),
-    url('../../../fonts/HyundaiSans/HyundaiSansHead-Medium/HyundaiSansHead-Medium.eot?#iefix') format("embedded-opentype"),
-    url('../../../fonts/HyundaiSans/HyundaiSansHead-Medium/HyundaiSansHead-Medium.woff2') format('woff2'),
-    url('../../../fonts/HyundaiSans/HyundaiSansHead-Medium/HyundaiSansHead-Medium.woff') format('woff');
+    src: local('HyundaiSansHead-Medium'),
+    url('../../../fonts/hyundai/HyundaiSansHead-Medium/HyundaiSansHead-Medium.eot'),
+    url('../../../fonts/hyundai/HyundaiSansHead-Medium/HyundaiSansHead-Medium.eot?#iefix') format("embedded-opentype"),
+    url('../../../fonts/hyundai/HyundaiSansHead-Medium/HyundaiSansHead-Medium.woff2') format('woff2'),
+    url('../../../fonts/hyundai/HyundaiSansHead-Medium/HyundaiSansHead-Medium.woff') format('woff');
 }

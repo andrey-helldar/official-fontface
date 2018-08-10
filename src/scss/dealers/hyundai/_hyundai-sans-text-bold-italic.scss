@@ -5,8 +5,9 @@
     font-weight: 600;
     font-style: italic;
 
-    src: url('../../../fonts/HyundaiSans/HyundaiSansText-BoldItalic/HyundaiSansText-BoldItalic.eot'),
-    url('../../../fonts/HyundaiSans/HyundaiSansText-BoldItalic/HyundaiSansText-BoldItalic.eot?#iefix') format("embedded-opentype"),
-    url('../../../fonts/HyundaiSans/HyundaiSansText-BoldItalic/HyundaiSansText-BoldItalic.woff2') format('woff2'),
-    url('../../../fonts/HyundaiSans/HyundaiSansText-BoldItalic/HyundaiSansText-BoldItalic.woff') format('woff');
+    src: local('HyundaiSansText-BoldItalic'),
+    url('../../../fonts/hyundai/HyundaiSansText-BoldItalic/HyundaiSansText-BoldItalic.eot'),
+    url('../../../fonts/hyundai/HyundaiSansText-BoldItalic/HyundaiSansText-BoldItalic.eot?#iefix') format("embedded-opentype"),
+    url('../../../fonts/hyundai/HyundaiSansText-BoldItalic/HyundaiSansText-BoldItalic.woff2') format('woff2'),
+    url('../../../fonts/hyundai/HyundaiSansText-BoldItalic/HyundaiSansText-BoldItalic.woff') format('woff');
 }
