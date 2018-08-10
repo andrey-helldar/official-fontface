@@ -86,8 +86,9 @@ The package contains official fonts of dealers:
 
 And see [test.html](dist/test.html) as example.
 
-## Using SCSS
+## Using
 
+### SCSS
 You can use certain fonts pack in your application:
 ```scss
 @import "~dealers-fontface/src/scss/dealers/ford";
@@ -102,6 +103,29 @@ Or connect a specific font. For example:
 @import "~dealers-fontface/src/scss/dealers/mercedes-benz/corporate-a-condensed";
 @import "~dealers-fontface/src/scss/dealers/hyundai/hyundai-sans-head-regular";
 @import "~dealers-fontface/src/scss/dealers/ford/fordantennacond-regular";
+```
+
+### CSS
+Copy the folders `dist/css` and `dist/fonts` to root dir of your project and connect them:
+```html
+<head>
+    <!-- ... -->
+    
+    <link href="/css/dealers-fontface.css" rel="stylesheet" media="screen,projection">
+</head>
+```
+
+Also, you can use certain fonts pack in your application:
+```html
+<head>
+    <!-- ... -->
+    
+    <link href="/css/ford.css" rel="stylesheet" media="screen,projection">
+    <link href="/css/hyundai.css" rel="stylesheet" media="screen,projection">
+    <link href="/css/isuzu.css" rel="stylesheet" media="screen,projection">
+    <link href="/css/mercedes-benz.css" rel="stylesheet" media="screen,projection">
+    <link href="/css/mitsubishi.css" rel="stylesheet" media="screen,projection">
+</head>
 ```
 
 
