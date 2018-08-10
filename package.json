@@ -1,6 +1,6 @@
 {
     "name": "dealers-fontface",
-    "description": "Set of fonts for car dealers",
+    "description": "Set of fonts for dealers",
     "author": "Andrey Helldar",
     "version": "1.0.4",
     "license": "MIT",
@@ -11,7 +11,8 @@
         "ford",
         "hyundai",
         "isuzu",
-        "mercedes-benz"
+        "mercedes-benz",
+        "mitsubishi"
     ],
     "style": "dist/css/dealers-fontface.css",
     "sass": "src/scss/dealers-fontface.scss",
