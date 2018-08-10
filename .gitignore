@@ -2,3 +2,4 @@
 /node_modules
 *.log
 *.orig
+*/mix-manifest.json
