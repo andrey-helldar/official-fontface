@@ -1,19 +1,22 @@
 let mix = require('laravel-mix');
 
-const path = './src/scss/';
+const base_path = './src/scss/';
+const company_path = base_path + 'companies/';
+const public_path = './dist';
+const css_path = public_path + '/css';
 
 mix
-    .setPublicPath('./dist')
+    .setPublicPath(public_path)
 
-    .sass(path + 'official-fontface.scss', 'dist/css')
-    .sass(path + 'test.scss', 'dist/css')
+    .sass(base_path + 'official-fontface.scss', css_path)
+    .sass(base_path + 'test.scss', css_path)
 
-    .sass(path + 'companies/ford.scss', 'dist/css')
-    .sass(path + 'companies/honda.scss', 'dist/css')
-    .sass(path + 'companies/hyundai.scss', 'dist/css')
-    .sass(path + 'companies/isuzu.scss', 'dist/css')
-    .sass(path + 'companies/mercedes-benz.scss', 'dist/css')
-    .sass(path + 'companies/mitsubishi.scss', 'dist/css')
+    .sass(company_path + 'ford.scss', css_path)
+    .sass(company_path + 'honda.scss', css_path)
+    .sass(company_path + 'hyundai.scss', css_path)
+    .sass(company_path + 'isuzu.scss', css_path)
+    .sass(company_path + 'mercedes-benz.scss', css_path)
+    .sass(company_path + 'mitsubishi.scss', css_path)
 
     .disableNotifications()
     .version();
