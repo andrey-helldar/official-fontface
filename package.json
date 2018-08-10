@@ -8,8 +8,9 @@
         "dealer",
         "fonts",
         "fontface",
-        "mercedes-benz",
-        "hyundai"
+        "hyundai",
+        "isuzu",
+        "mercedes-benz"
     ],
     "style": "dist/css/dealers-fontface.css",
     "sass": "src/scss/dealers-fontface.scss",

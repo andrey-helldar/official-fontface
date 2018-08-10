@@ -51,9 +51,13 @@ The package contains official fonts of car dealers:
 .hyundai-sans-text-medium-italic { font-family: 'HyundaiSans'; font-weight: 500;    font-style: italic; }
 .hyundai-sans-text-italic        { font-family: 'HyundaiSans'; font-weight: normal; font-style: italic; }
 .hyundai-sans-text-regular       { font-family: 'HyundaiSans'; font-weight: normal; font-style: normal; }
+
+/* ISUZU */
+.isuzu-expand { font-family: 'Usuzi Expanded'; font-weight: normal; font-style: normal; }
+
 ```
 
-And see [test.html](dist/test.html).
+And see [test.html](dist/test.html) as example.
 
 
 ## License
