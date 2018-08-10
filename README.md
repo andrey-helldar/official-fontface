@@ -97,6 +97,9 @@ The package contains official fonts of dealers:
 
 And see [test.html](tests/test.html) as example.
 
+![example](https://user-images.githubusercontent.com/10347617/43971310-3abb54f0-9cd9-11e8-86bb-f5b8f962fe8f.png)
+
+
 ## Using
 
 ### SCSS
