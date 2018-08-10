@@ -14,7 +14,7 @@ Set of fonts for dealers
 
 **NPM**
 ```bash
-npm install --save-dev dealers-fontface
+npm i --save-dev dealers-fontface
 ```
 
 **Yarn**
