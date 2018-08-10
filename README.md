@@ -29,6 +29,7 @@ The package contains official fonts of dealers:
 
  * [Cars](#cars)
     * [Ford](#ford)
+    * [Honda](#honda)
     * [Hyundai](#hyundai)
     * [Isuzu](#isuzu)
     * [Mercedes-Benz](#mercedes-benz)
@@ -50,6 +51,16 @@ The package contains official fonts of dealers:
 .ford-antenna-cond-bold     { font-family: 'FordAntennaCond'; font-weight: 700; font-style: normal; }
 .ford-antenna-cond-medium   { font-family: 'FordAntennaCond'; font-weight: 500; font-style: normal; }
 .ford-antenna-cond-regular  { font-family: 'FordAntennaCond'; font-weight: 400; font-style: normal; }
+```
+
+#### Honda
+```css
+.honda-bold { font-family: 'AvenirNext'; font-weight: 700; font-style: normal; }
+.honda-demibold { font-family: 'AvenirNext'; font-weight: 600; font-style: normal; }
+.honda-medium { font-family: 'AvenirNext'; font-weight: 500; font-style: normal; }
+.honda-medium-italic { font-family: 'AvenirNext'; font-weight: 500; font-style: italic; }
+.honda-regular { font-family: 'AvenirNext'; font-weight: 400; font-style: normal; }
+.honda-light { font-family: 'AvenirNext'; font-weight: 300; font-style: normal; }
 ```
 
 #### Hyundai
@@ -129,28 +140,81 @@ Also, you can use certain fonts pack in your application:
 ```
 
 
-# Contributors
+# For contributors
 
 You can easily add any official dealer fonts by following the steps.
 
-For example, add fonts `Mercedes-Benz`:
+For example, add fonts `Honda`:
 
-1. Create `mercedes-benz` folder in `src/fonts` and storing files:
+1. Create `honda` folder in `src/fonts` and storing files:
 ```
-src/fonts/mercedes-benz/DaimlerCAC/
-    DaimlerCAC-Regular.eot
-    DaimlerCAC-Regular.svg
-    DaimlerCAC-Regular.ttf
-    DaimlerCAC-Regular.woff
-    DaimlerCAC-Regular.woff2
+src/fonts/honda/AvenirNext-Light/
+    AvenirNext-Light.eot
+    AvenirNext-Light.svg
+    AvenirNext-Light.ttf
+    AvenirNext-Light.woff
+    AvenirNext-Light.woff2
 
-src/fonts/mercedes-benz/DaimlerCS-Regular/
-    DaimlerCS-Regular.eot
-    DaimlerCS-Regular.svg
-    DaimlerCS-Regular.ttf
-    DaimlerCS-Regular.woff
-    DaimlerCS-Regular.woff2
+src/fonts/mercedes-benz/AvenirNext-Regular/
+    AvenirNext-Regular.eot
+    AvenirNext-Regular.svg
+    AvenirNext-Regular.ttf
+    AvenirNext-Regular.woff
+    AvenirNext-Regular.woff2
 ```
+
+2. Create `scss` files in `src/scss/companies`, as well as a directory named `honda`:
+```
+src/scss/honda/
+src/scss/honda.scss
+```
+
+3. In the folder `src/scss/honda`, create style files for each font, named files in `kebab-case`:
+```
+src/scss/honda/_avenirnext-light.scss
+src/scss/honda/_avenirnext-regular.scss
+```
+
+4. Next, fill the files with styles. For example:
+```scss
+@font-face {
+    font-family: 'AvenirNext-Light';
+    font-weight: 300;
+    font-style: normal;
+
+    src: local('AvenirNext-Light'),
+    local('Avenir Next Cyr W00 Light'),
+    url('../../../fonts/honda/AvenirNext-Light/AvenirNext-Light.eot'),
+    url('../../../fonts/honda/AvenirNext-Light/AvenirNext-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../../fonts/honda/AvenirNext-Light/AvenirNext-Light.woff2') format('woff2'),
+    url('../../../fonts/honda/AvenirNext-Light/AvenirNext-Light.woff') format('woff'),
+    url('../../../fonts/honda/AvenirNext-Light/AvenirNext-Light.svg#DaimlerCAC-Regular') format('svg');
+}
+```
+
+5. After that, add links to these files in `src/scss/honda.scss` file:
+```scss
+@import "honda/avenirnext-bold";
+@import "honda/avenirnext-demibold";
+@import "honda/avenirnext-medium";
+@import "honda/avenirnext-mediumitalic";
+@import "honda/avenirnext-regular";
+@import "honda/avenirnext-light";
+```
+
+6. Add the file import to the main stylesheet `src/scss/official-fontface.scss`:
+```scss
+@import "companies/honda";
+```
+
+7. Finally, add a link to the file in the webpack settings:
+```js
+mix
+    // ...
+    .sass(path + 'companies/honda.scss', 'dist/css')
+```
+
+8. Profit!
 
 
 ## License

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'AvenirNext';
+    font-weight: 500;
+    font-style: normal;
+
+    src: local('AvenirNext-Medium'),
+    local('Avenir Next Cyr W00 Medium'),
+    url('../../../fonts/honda/AvenirNext-Medium/AvenirNext-Medium.eot'),
+    url('../../../fonts/honda/AvenirNext-Medium/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../../fonts/honda/AvenirNext-Medium/AvenirNext-Medium.woff2') format('woff2'),
+    url('../../../fonts/honda/AvenirNext-Medium/AvenirNext-Medium.woff') format('woff'),
+    url('../../../fonts/honda/AvenirNext-Medium/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg');
+}

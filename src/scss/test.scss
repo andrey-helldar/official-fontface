@@ -7,10 +7,11 @@
 //
 //  0. Base
 //  1. Ford
-//  2. Hyundai
-//  3. Isuzu
-//  4. Mercedes-Benz
-//  5. Mitsibishi
+//  2. Honda
+//  3. Hyundai
+//  4. Isuzu
+//  5. Mercedes-Benz
+//  6. Mitsibishi
 //
 //
 // 0. Base
@@ -20,12 +21,17 @@
 .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 20px;
 
     .block {
         border: 1px solid rgba(0, 0, 0, .2);
         padding: 20px;
+
+        h1 {
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+        }
     }
 }
 
@@ -49,7 +55,18 @@
     }
 }
 
-// 2. Hyundai
+// 2. Honda
+//// ==========================================================================
+.honda {
+    &-bold { font-family: 'AvenirNext'; font-weight: 700; font-style: normal; }
+    &-demibold { font-family: 'AvenirNext'; font-weight: 600; font-style: normal; }
+    &-medium { font-family: 'AvenirNext'; font-weight: 500; font-style: normal; }
+    &-medium-italic { font-family: 'AvenirNext'; font-weight: 500; font-style: italic; }
+    &-regular { font-family: 'AvenirNext'; font-weight: 400; font-style: normal; }
+    &-light { font-family: 'AvenirNext'; font-weight: 300; font-style: normal; }
+}
+
+// 3. Hyundai
 //// ==========================================================================
 .hyundai-sans {
     // Hyundai: Head
@@ -74,7 +91,7 @@
     &-regular { font-family: 'Usuzi Expanded'; font-weight: 400; font-style: normal; font-stretch: expanded; }
 }
 
-// 4. Mercedes-Benz
+// 5. Mercedes-Benz
 //// ==========================================================================
 .mercedes-benz {
     // Mercedes-Benz: Head
@@ -85,7 +102,7 @@
     &-cs-demi { font-family: 'Corporate S Bold'; font-weight: 600; font-style: normal; }
 }
 
-// 5. Mitsibishi
+// 6. Mitsibishi
 //// ==========================================================================
 .mitsubishi {
     // Mercedes-Benz: Head
