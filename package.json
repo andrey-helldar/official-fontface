@@ -1,11 +1,10 @@
 {
-    "name": "dealers-fontface",
-    "description": "Set of official dealer fonts in SCSS",
+    "name": "official-fontface",
+    "description": "Set of official fonts of companies in SCSS",
     "author": "Andrey Helldar",
     "version": "1.0.5",
     "license": "MIT",
     "keywords": [
-        "dealer",
         "fonts",
         "fontface",
         "ford",
@@ -14,8 +13,8 @@
         "mercedes-benz",
         "mitsubishi"
     ],
-    "style": "dist/css/dealers-fontface.css",
-    "sass": "src/scss/dealers-fontface.scss",
+    "style": "dist/css/official-fontface.css",
+    "sass": "src/scss/official-fontface.scss",
     "devDependencies": {
         "cross-env": "^5.2",
         "laravel-mix": "^2.1",
@@ -27,13 +26,13 @@
         "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "test": "yarn dev && stylelint dist/css/dealers-fontface.css"
+        "test": "yarn dev && stylelint dist/css/official-fontface.css"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:andrey-helldar/dealers-fontface.git"
+        "url": "git@github.com:andrey-helldar/official-fontface.git"
     },
-    "bugs": "https://github.com/andrey-helldar/dealers-fontface/issues",
+    "bugs": "https://github.com/andrey-helldar/official-fontface/issues",
     "files": [
         "dist",
         "src",

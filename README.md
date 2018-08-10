@@ -1,25 +1,25 @@
-# dealers-fontface
+# official-fontface
 
-Set of official dealer fonts in SCSS.
+Set of official fonts of companies in SCSS.
 
-![dealers-fontface](https://user-images.githubusercontent.com/10347617/43892308-45fc1eb8-9bd4-11e8-8659-6ae4301658cd.png)
+![official-fontface](https://user-images.githubusercontent.com/10347617/43892308-45fc1eb8-9bd4-11e8-8659-6ae4301658cd.png)
 
 <p align="center">
-    <a href="https://yarn.pm/dealers-fontface"><img src="https://img.shields.io/npm/dt/dealers-fontface.svg?style=flat-square" alt="Total Downloads" /></a>
-    <a href="https://yarn.pm/dealers-fontface"><img src="https://img.shields.io/npm/v/dealers-fontface.svg?style=flat-square" alt="Latest Stable Version" /></a>
-    <a href="LICENSE"><img src="https://img.shields.io/npm/l/dealers-fontface.svg?style=flat-square" alt="License" /></a>
+    <a href="https://yarn.pm/official-fontface"><img src="https://img.shields.io/npm/dt/official-fontface.svg?style=flat-square" alt="Total Downloads" /></a>
+    <a href="https://yarn.pm/official-fontface"><img src="https://img.shields.io/npm/v/official-fontface.svg?style=flat-square" alt="Latest Stable Version" /></a>
+    <a href="LICENSE"><img src="https://img.shields.io/npm/l/official-fontface.svg?style=flat-square" alt="License" /></a>
 </p>
 
 ## Installation
 
 **NPM**
 ```bash
-npm i --save-dev dealers-fontface
+npm i --save-dev official-fontface
 ```
 
 **Yarn**
 ```
-yarn add --dev dealers-fontface
+yarn add --dev official-fontface
 ```
 
 
@@ -84,25 +84,25 @@ The package contains official fonts of dealers:
 .mitsubishi-regular { font-family: 'Bitsumishi'; font-weight: 400; font-style: normal; }
 ```
 
-And see [test.html](dist/test.html) as example.
+And see [test.html](tests/test.html) as example.
 
 ## Using
 
 ### SCSS
 You can use certain fonts pack in your application:
 ```scss
-@import "~dealers-fontface/src/scss/dealers/ford";
-@import "~dealers-fontface/src/scss/dealers/hyundai";
-@import "~dealers-fontface/src/scss/dealers/isuzu";
-@import "~dealers-fontface/src/scss/dealers/mercedes-benz";
-@import "~dealers-fontface/src/scss/dealers/mitsubishi";
+@import "~official-fontface/src/scss/dealers/ford";
+@import "~official-fontface/src/scss/dealers/hyundai";
+@import "~official-fontface/src/scss/dealers/isuzu";
+@import "~official-fontface/src/scss/dealers/mercedes-benz";
+@import "~official-fontface/src/scss/dealers/mitsubishi";
 ```
 
 Or connect a specific font. For example:
 ```scss
-@import "~dealers-fontface/src/scss/dealers/mercedes-benz/corporate-a-condensed";
-@import "~dealers-fontface/src/scss/dealers/hyundai/hyundai-sans-head-regular";
-@import "~dealers-fontface/src/scss/dealers/ford/fordantennacond-regular";
+@import "~official-fontface/src/scss/dealers/mercedes-benz/corporate-a-condensed";
+@import "~official-fontface/src/scss/dealers/hyundai/hyundai-sans-head-regular";
+@import "~official-fontface/src/scss/dealers/ford/fordantennacond-regular";
 ```
 
 ### CSS
@@ -111,7 +111,7 @@ Copy the folders `dist/css` and `dist/fonts` to root dir of your project and con
 <head>
     <!-- ... -->
     
-    <link href="/css/dealers-fontface.css" rel="stylesheet" media="screen,projection">
+    <link href="/css/official-fontface.css" rel="stylesheet" media="screen,projection">
 </head>
 ```
 
