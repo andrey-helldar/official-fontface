@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'FordAntennaComp';
+    font-weight: 900;
+    font-style: normal;
+
+    src: local('FordAntennaComp-Black'),
+    url('../../../fonts/ford/FordAntennaComp-Black/FordAntennaComp-Black.eot'),
+    url('../../../fonts/ford/FordAntennaComp-Black/FordAntennaComp-Black.eot?#iefix') format("embedded-opentype"),
+    url('../../../fonts/ford/FordAntennaComp-Black/FordAntennaComp-Black.woff') format('woff'),
+    url('../../../fonts/ford/FordAntennaComp-Black/FordAntennaComp-Black.ttf') format('truetype'),
+    url('../../../fonts/ford/FordAntennaComp-Black/FordAntennaComp-Black.svg#FordAntennaComp-Black') format('svg');
+}

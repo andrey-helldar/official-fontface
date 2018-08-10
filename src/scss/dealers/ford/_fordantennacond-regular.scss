@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'FordAntennaCond';
+    font-weight: normal;
+    font-style: normal;
+
+    src: local('FordAntennaCond-Regular'),
+    url('../../../fonts/ford/FordAntennaCond-Regular/FordAntennaCond-Regular.eot'),
+    url('../../../fonts/ford/FordAntennaCond-Regular/FordAntennaCond-Regular.eot?#iefix') format("embedded-opentype"),
+    url('../../../fonts/ford/FordAntennaCond-Regular/FordAntennaCond-Regular.woff') format('woff'),
+    url('../../../fonts/ford/FordAntennaCond-Regular/FordAntennaCond-Regular.ttf') format('truetype'),
+    url('../../../fonts/ford/FordAntennaCond-Regular/FordAntennaCond-Regular.svg#FordAntennaCond-Regular') format('svg');
+}

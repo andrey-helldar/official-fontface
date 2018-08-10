@@ -6,48 +6,71 @@
 // Table of Contents:
 //
 //  0. Base
-//  1. Daimler Mercedes-Benz
+//  1. Ford
 //  2. Hyundai
+//  3. Mercedes-Benz
 //
 //
 // 0. Base
 //// ==========================================================================
 
 /* Base */
-.container {display: flex; flex-direction: row; justify-content: space-evenly; padding: 20px;}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
 
-.container .block {border: 1px solid rgba(0, 0, 0, .2); padding: 20px;}
+    .block {
+        border: 1px solid rgba(0, 0, 0, .2);
+        padding: 20px;
+    }
+}
 
-// 1. Daimler Mercedes-Benz
+// 1. Ford
 //// ==========================================================================
-// Mercedes-Benz: Head
-.mercedes-benz-cac-regular { font-family: 'Corporate A Condensed'; font-weight: 400; }
 
-// Mercedes-Benz: Text
-.mercedes-benz-cs-regular { font-family: 'Corporate S Regular'; font-weight: 400;}
+.ford-antenna {
+    &-black { font-family: 'FordAntenna'; font-weight: 900; font-style: normal; }
+    &-bold { font-family: 'FordAntenna'; font-weight: 700; font-style: normal; }
+    &-medium { font-family: 'FordAntenna'; font-weight: 600; font-style: normal; }
+    &-regular { font-family: 'FordAntenna'; font-weight: normal; font-style: normal; }
+    &-light { font-family: 'FordAntenna'; font-weight: 300; font-style: normal; }
 
-.mercedes-benz-cs-demi { font-family: 'Corporate S Bold'; font-weight: 600;}
+    &-comp-black { font-family: 'FordAntennaComp'; font-weight: 900; font-style: normal; }
+
+    &-cond {
+        &-bold { font-family: 'FordAntennaCond'; font-weight: 700; font-style: normal; }
+        &-medium { font-family: 'FordAntennaCond'; font-weight: 600; font-style: normal; }
+        &-regular { font-family: 'FordAntennaCond'; font-weight: normal; font-style: normal; }
+    }
+}
 
 // 2. Hyundai
 //// ==========================================================================
-// Hyundai: Head
-.hyundai-sans-head-bold { font-family: 'HyundaiSansHead'; font-weight: 700; font-style: normal; }
+.hyundai-sans {
+    // Hyundai: Head
+    &-head-bold { font-family: 'HyundaiSansHead'; font-weight: 700; font-style: normal; }
+    &-head-medium { font-family: 'HyundaiSansHead'; font-weight: 500; font-style: normal; }
+    &-head-regular { font-family: 'HyundaiSansHead'; font-weight: normal; font-style: normal; }
+    &-head-light { font-family: 'HyundaiSansHead'; font-weight: 300; font-style: normal; }
 
-.hyundai-sans-head-medium { font-family: 'HyundaiSansHead'; font-weight: 500; font-style: normal; }
+    // Hyundai: Text
+    &-text-bold { font-family: 'HyundaiSans'; font-weight: 600; font-style: normal; }
+    &-text-bold-italic { font-family: 'HyundaiSans'; font-weight: 600; font-style: italic; }
+    &-text-medium { font-family: 'HyundaiSans'; font-weight: 500; font-style: normal; }
+    &-text-medium-italic { font-family: 'HyundaiSans'; font-weight: 500; font-style: italic; }
+    &-text-italic { font-family: 'HyundaiSans'; font-weight: normal; font-style: italic; }
+    &-text-regular { font-family: 'HyundaiSans'; font-weight: normal; font-style: normal; }
+}
 
-.hyundai-sans-head-regular { font-family: 'HyundaiSansHead'; font-weight: normal; font-style: normal; }
+// 3. Mercedes-Benz
+//// ==========================================================================
+.mercedes-benz {
+    // Mercedes-Benz: Head
+    &-cac-regular { font-family: 'Corporate A Condensed'; font-weight: 400; font-style: normal; }
 
-.hyundai-sans-head-light { font-family: 'HyundaiSansHead'; font-weight: 300; font-style: normal; }
-
-// Hyundai: Text
-.hyundai-sans-text-bold { font-family: 'HyundaiSans'; font-weight: 600; font-style: normal; }
-
-.hyundai-sans-text-bold-italic { font-family: 'HyundaiSans'; font-weight: 600; font-style: italic; }
-
-.hyundai-sans-text-medium { font-family: 'HyundaiSans'; font-weight: 500; font-style: normal; }
-
-.hyundai-sans-text-medium-italic { font-family: 'HyundaiSans'; font-weight: 500; font-style: italic; }
-
-.hyundai-sans-text-italic { font-family: 'HyundaiSans'; font-weight: normal; font-style: italic; }
-
-.hyundai-sans-text-regular { font-family: 'HyundaiSans'; font-weight: normal; font-style: normal; }
+    // Mercedes-Benz: Text
+    &-cs-regular { font-family: 'Corporate S Regular'; font-weight: 400; font-style: normal; }
+    &-cs-demi { font-family: 'Corporate S Bold'; font-weight: 600; font-style: normal; }
+}
