@@ -129,6 +129,30 @@ Also, you can use certain fonts pack in your application:
 ```
 
 
+# Contributors
+
+You can easily add any official dealer fonts by following the steps.
+
+For example, add fonts `Mercedes-Benz`:
+
+1. Create `mercedes-benz` folder in `src/fonts` and storing files:
+```
+src/fonts/mercedes-benz/DaimlerCAC/
+    DaimlerCAC-Regular.eot
+    DaimlerCAC-Regular.svg
+    DaimlerCAC-Regular.ttf
+    DaimlerCAC-Regular.woff
+    DaimlerCAC-Regular.woff2
+
+src/fonts/mercedes-benz/DaimlerCS-Regular/
+    DaimlerCS-Regular.eot
+    DaimlerCS-Regular.svg
+    DaimlerCS-Regular.ttf
+    DaimlerCS-Regular.woff
+    DaimlerCS-Regular.woff2
+```
+
+
 ## License
 
 This package is released under the [MIT License](LICENSE).
