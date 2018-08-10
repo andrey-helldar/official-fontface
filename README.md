@@ -86,6 +86,24 @@ The package contains official fonts of dealers:
 
 And see [test.html](dist/test.html) as example.
 
+## Using SCSS
+
+You can use certain fonts pack in your application:
+```scss
+@import "~dealers-fontface/src/scss/dealers/ford";
+@import "~dealers-fontface/src/scss/dealers/hyundai";
+@import "~dealers-fontface/src/scss/dealers/isuzu";
+@import "~dealers-fontface/src/scss/dealers/mercedes-benz";
+@import "~dealers-fontface/src/scss/dealers/mitsubishi";
+```
+
+Or connect a specific font. For example:
+```scss
+@import "~dealers-fontface/src/scss/dealers/mercedes-benz/corporate-a-condensed";
+@import "~dealers-fontface/src/scss/dealers/hyundai/hyundai-sans-head-regular";
+@import "~dealers-fontface/src/scss/dealers/ford/fordantennacond-regular";
+```
+
 
 ## License
 
