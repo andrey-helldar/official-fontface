@@ -2,7 +2,8 @@
 
 Set of official fonts of companies in SCSS.
 
-![official-fontface](https://user-images.githubusercontent.com/10347617/43892308-45fc1eb8-9bd4-11e8-8659-6ae4301658cd.png)
+![official-fontface](https://user-images.githubusercontent.com/10347617/44003020-8225eea0-9e54-11e8-8df8-0c20f5856cc3.png)
+
 
 <p align="center">
     <a href="https://www.npmjs.com/package/official-fontface"><img src="https://img.shields.io/npm/dt/official-fontface.svg?style=flat-square" alt="Total Downloads" /></a>
