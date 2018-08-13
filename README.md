@@ -159,7 +159,7 @@ src/fonts/honda/AvenirNext-Light/
     AvenirNext-Light.woff
     AvenirNext-Light.woff2
 
-src/fonts/mercedes-benz/AvenirNext-Regular/
+src/fonts/honda/AvenirNext-Regular/
     AvenirNext-Regular.eot
     AvenirNext-Regular.svg
     AvenirNext-Regular.ttf
