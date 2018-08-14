@@ -30,7 +30,7 @@ yarn add --dev official-fontface
 
 ## What does it do?
 
-The package contains official fonts of dealers:
+The package contains official fonts of companies:
 
  * [Cars](#cars)
     * [Ford](#ford)
@@ -110,18 +110,18 @@ And see [test.html](tests/test.html) as example.
 ### SCSS
 You can use certain fonts pack in your application:
 ```scss
-@import "~official-fontface/src/scss/dealers/ford";
-@import "~official-fontface/src/scss/dealers/hyundai";
-@import "~official-fontface/src/scss/dealers/isuzu";
-@import "~official-fontface/src/scss/dealers/mercedes-benz";
-@import "~official-fontface/src/scss/dealers/mitsubishi";
+@import "~official-fontface/src/scss/companies/ford";
+@import "~official-fontface/src/scss/companies/hyundai";
+@import "~official-fontface/src/scss/companies/isuzu";
+@import "~official-fontface/src/scss/companies/mercedes-benz";
+@import "~official-fontface/src/scss/companies/mitsubishi";
 ```
 
 Or connect a specific font. For example:
 ```scss
-@import "~official-fontface/src/scss/dealers/mercedes-benz/corporate-a-condensed";
-@import "~official-fontface/src/scss/dealers/hyundai/hyundai-sans-head-regular";
-@import "~official-fontface/src/scss/dealers/ford/fordantennacond-regular";
+@import "~official-fontface/src/scss/companies/mercedes-benz/corporate-a-condensed";
+@import "~official-fontface/src/scss/companies/hyundai/hyundai-sans-head-regular";
+@import "~official-fontface/src/scss/companies/ford/fordantennacond-regular";
 ```
 
 ### CSS
