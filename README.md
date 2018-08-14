@@ -23,6 +23,10 @@ npm i --save-dev official-fontface
 yarn add --dev official-fontface
 ```
 
+***CDN***
+
+* jsDelivr - [cdn.jsdelivr.net/npm/official-fontface](https://cdn.jsdelivr.net/npm/official-fontface@latest)
+
 
 ## What does it do?
 
