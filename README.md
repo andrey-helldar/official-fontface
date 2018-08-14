@@ -230,6 +230,8 @@ mix
 
 8. Profit!
 
+Or, simply by creating a [issue](https://github.com/andrey-helldar/official-fontface/issues) and attaching the font files (or, at least, the name of the font and the company that uses it) to it.
+
 
 ## License
 
