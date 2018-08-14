@@ -144,7 +144,7 @@ Also, you can use certain fonts pack in your application:
 ```
 
 
-# For contributors
+## For contributors
 
 You can easily add any official dealer fonts by following the steps.
 
