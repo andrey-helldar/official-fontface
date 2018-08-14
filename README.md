@@ -39,6 +39,7 @@ The package contains official fonts of companies:
     * [Isuzu](#isuzu)
     * [Mercedes-Benz](#mercedes-benz)
     * [Mitsubishi](#mitsubishi)
+    * [Renault](#renault)
 
 ### Cars
 
@@ -98,6 +99,16 @@ The package contains official fonts of companies:
 #### Mitsubishi
 ```css
 .mitsubishi-regular { font-family: 'Bitsumishi'; font-weight: 400; font-style: normal; }
+```
+
+#### Renault
+```css
+.renault-bold { font-family: 'Renault Life'; font-weight: 700; font-style: normal; }
+.renault-bold-italic { font-family: 'Renault Life'; font-weight: 700; font-style: italic; }
+.renault-regular { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
+.renault-italic { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
+.renault-light { font-family: 'Renault Life'; font-weight: 300; font-style: normal; }
+.renault-light-italic { font-family: 'Renault Life'; font-weight: 300; font-style: italic; }
 ```
 
 And see [test.html](tests/test.html) as example.
