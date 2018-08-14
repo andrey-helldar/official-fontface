@@ -17,6 +17,7 @@ mix
     .sass(company_path + 'isuzu.scss', css_path)
     .sass(company_path + 'mercedes-benz.scss', css_path)
     .sass(company_path + 'mitsubishi.scss', css_path)
+    .sass(company_path + 'renault.scss', css_path)
 
     .disableNotifications()
     .version();

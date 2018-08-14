@@ -12,6 +12,7 @@
 //  4. Isuzu
 //  5. Mercedes-Benz
 //  6. Mitsibishi
+//  7. Renault
 //
 //
 // 0. Base
@@ -28,6 +29,7 @@
     .block {
         border: 1px solid rgba(0, 0, 0, .2);
         padding: 20px;
+        margin-bottom: 10px;
 
         h1 {
             border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -107,4 +109,15 @@
 .mitsubishi {
     // Mercedes-Benz: Head
     &-regular { font-family: 'Bitsumishi'; font-weight: 400; font-style: normal; }
+}
+
+// 7. Renault
+//// ==========================================================================
+.renault {
+    &-bold { font-family: 'Renault Life'; font-weight: 700; font-style: normal; }
+    &-bold-italic { font-family: 'Renault Life'; font-weight: 700; font-style: italic; }
+    &-regular { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
+    &-italic { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
+    &-light { font-family: 'Renault Life'; font-weight: 300; font-style: normal; }
+    &-light-italic { font-family: 'Renault Life'; font-weight: 300; font-style: italic; }
 }

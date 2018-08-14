@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Renault Life';
+    font-weight: 700;
+    font-style: italic;
+
+    src: local('Renault Life'),
+    url('../../../fonts/renault/RenaultLife-BoldItalic/RenaultLife-BoldItalic.eot'),
+    url('../../../fonts/renault/RenaultLife-BoldItalic/RenaultLife-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../../fonts/renault/RenaultLife-BoldItalic/RenaultLife-BoldItalic.woff2') format('woff2'),
+    url('../../../fonts/renault/RenaultLife-BoldItalic/RenaultLife-BoldItalic.woff') format('woff'),
+    url('../../../fonts/renault/RenaultLife-BoldItalic/RenaultLife-BoldItalic.ttf') format('truetype'),
+    url('../../../fonts/renault/RenaultLife-BoldItalic/RenaultLife-BoldItalic.svg#RenaultLife-BoldItalic') format('svg');
+}

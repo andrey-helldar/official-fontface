@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Renault Life';
+    font-weight: 300;
+    font-style: normal;
+
+    src: local('Renault Life Light'),
+    local('Renault Life'),
+    url('../../../fonts/renault/RenaultLife-Light/RenaultLife-Light.eot'),
+    url('../../../fonts/renault/RenaultLife-Light/RenaultLife-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../../fonts/renault/RenaultLife-Light/RenaultLife-Light.woff2') format('woff2'),
+    url('../../../fonts/renault/RenaultLife-Light/RenaultLife-Light.woff') format('woff'),
+    url('../../../fonts/renault/RenaultLife-Light/RenaultLife-Light.ttf') format('truetype'),
+    url('../../../fonts/renault/RenaultLife-Light/RenaultLife-Light.svg#RenaultLife-Light') format('svg');
+}
