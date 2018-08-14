@@ -108,7 +108,13 @@ And see [test.html](tests/test.html) as example.
 ## Using
 
 ### SCSS
-You can use certain fonts pack in your application:
+
+You can use all fonts:
+```scss
+@import "~official-fontface/src/scss/official-fontface";
+```
+
+Or you can use certain fonts pack in your application:
 ```scss
 @import "~official-fontface/src/scss/companies/ford";
 @import "~official-fontface/src/scss/companies/hyundai";
