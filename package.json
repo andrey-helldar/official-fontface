@@ -4,16 +4,7 @@
     "author": "Andrey Helldar",
     "version": "1.2.1",
     "license": "MIT",
-    "keywords": [
-        "fonts",
-        "fontface",
-        "ford",
-        "honda",
-        "hyundai",
-        "isuzu",
-        "mercedes-benz",
-        "mitsubishi"
-    ],
+    "keywords": ["fonts", "fontface", "fiat", "ford", "honda", "hyundai", "isuzu", "mercedes-benz", "mitsubishi"],
     "style": "dist/css/official-fontface.css",
     "sass": "src/scss/official-fontface.scss",
     "devDependencies": {

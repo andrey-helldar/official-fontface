@@ -13,6 +13,7 @@
 //  5. Mercedes-Benz
 //  6. Mitsibishi
 //  7. Renault
+//  8. Fiat
 //
 //
 // 0. Base
@@ -120,4 +121,12 @@
     &-italic { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
     &-light { font-family: 'Renault Life'; font-weight: 300; font-style: normal; }
     &-light-italic { font-family: 'Renault Life'; font-weight: 300; font-style: italic; }
+}
+
+// 8. Fiat
+//// ==========================================================================
+.fiat {
+    &-pro { font-family: 'fiatpro'; font-weight: 400; font-style: normal; }
+    &-mopar { font-family: 'mopar-fiat'; font-weight: 400; font-style: normal; }
+    &-mopar-private { font-family: 'mopar-private-fiat'; font-weight: 400; font-style: italic; }
 }

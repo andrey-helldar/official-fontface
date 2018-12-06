@@ -33,6 +33,7 @@ yarn add --dev official-fontface
 The package contains official fonts of companies:
 
  * [Cars](#cars)
+    * [Fiat](#fiat)
     * [Ford](#ford)
     * [Honda](#honda)
     * [Hyundai](#hyundai)
@@ -42,6 +43,13 @@ The package contains official fonts of companies:
     * [Renault](#renault)
 
 ### Cars
+
+#### Fiat
+```css
+.fiat-pro           { font-family: 'fiatpro';            font-weight: 400; font-style: normal; }
+.fiat-mopar         { font-family: 'mopar-fiat';         font-weight: 400; font-style: normal; }
+.fiat-mopar-private { font-family: 'mopar-private-fiat'; font-weight: 400; font-style: italic; }
+```
 
 #### Ford
 ```css
@@ -61,12 +69,12 @@ The package contains official fonts of companies:
 
 #### Honda
 ```css
-.honda-bold { font-family: 'AvenirNext'; font-weight: 700; font-style: normal; }
-.honda-demibold { font-family: 'AvenirNext'; font-weight: 600; font-style: normal; }
-.honda-medium { font-family: 'AvenirNext'; font-weight: 500; font-style: normal; }
+.honda-bold { font-family: 'AvenirNext';          font-weight: 700; font-style: normal; }
+.honda-demibold { font-family: 'AvenirNext';      font-weight: 600; font-style: normal; }
+.honda-medium { font-family: 'AvenirNext';        font-weight: 500; font-style: normal; }
 .honda-medium-italic { font-family: 'AvenirNext'; font-weight: 500; font-style: italic; }
-.honda-regular { font-family: 'AvenirNext'; font-weight: 400; font-style: normal; }
-.honda-light { font-family: 'AvenirNext'; font-weight: 300; font-style: normal; }
+.honda-regular { font-family: 'AvenirNext';       font-weight: 400; font-style: normal; }
+.honda-light { font-family: 'AvenirNext';         font-weight: 300; font-style: normal; }
 ```
 
 #### Hyundai
@@ -103,11 +111,11 @@ The package contains official fonts of companies:
 
 #### Renault
 ```css
-.renault-bold { font-family: 'Renault Life'; font-weight: 700; font-style: normal; }
-.renault-bold-italic { font-family: 'Renault Life'; font-weight: 700; font-style: italic; }
-.renault-regular { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
-.renault-italic { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
-.renault-light { font-family: 'Renault Life'; font-weight: 300; font-style: normal; }
+.renault-bold { font-family: 'Renault Life';         font-weight: 700; font-style: normal; }
+.renault-bold-italic { font-family: 'Renault Life';  font-weight: 700; font-style: italic; }
+.renault-regular { font-family: 'Renault Life';      font-weight: 400; font-style: normal; }
+.renault-italic { font-family: 'Renault Life';       font-weight: 400; font-style: normal; }
+.renault-light { font-family: 'Renault Life';        font-weight: 300; font-style: normal; }
 .renault-light-italic { font-family: 'Renault Life'; font-weight: 300; font-style: italic; }
 ```
 

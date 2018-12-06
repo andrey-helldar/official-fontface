@@ -11,6 +11,7 @@ mix
     .sass(base_path + 'official-fontface.scss', css_path)
     .sass(base_path + 'test.scss', css_path)
 
+    .sass(company_path + 'fiat.scss', css_path)
     .sass(company_path + 'ford.scss', css_path)
     .sass(company_path + 'honda.scss', css_path)
     .sass(company_path + 'hyundai.scss', css_path)
