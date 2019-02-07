@@ -55,7 +55,11 @@
                         "monospace"
                     ]
                 }
-            ]
+            ],
+            "indentation": 4,
+            "declaration-block-single-line-max-declarations": 5,
+            "font-family-no-missing-generic-family-keyword": false,
+            "number-leading-zero": "never"
         }
     }
 }

@@ -43,17 +43,24 @@
 
 .ford-antenna {
     &-black { font-family: 'FordAntenna'; font-weight: 900; font-style: normal; }
+
     &-bold { font-family: 'FordAntenna'; font-weight: 700; font-style: normal; }
+
     &-semibold { font-family: 'FordAntenna'; font-weight: 600; font-style: normal; }
+
     &-medium { font-family: 'FordAntenna'; font-weight: 500; font-style: normal; }
+
     &-regular { font-family: 'FordAntenna'; font-weight: 400; font-style: normal; }
+
     &-light { font-family: 'FordAntenna'; font-weight: 300; font-style: normal; }
 
     &-comp-black { font-family: 'FordAntennaComp'; font-weight: 900; font-style: normal; font-stretch: extra-condensed; }
 
     &-cond {
         &-bold { font-family: 'FordAntennaCond'; font-weight: 700; font-style: normal; }
+
         &-medium { font-family: 'FordAntennaCond'; font-weight: 500; font-style: normal; }
+
         &-regular { font-family: 'FordAntennaCond'; font-weight: 400; font-style: normal; }
     }
 }
@@ -62,10 +69,15 @@
 //// ==========================================================================
 .honda {
     &-bold { font-family: 'AvenirNext'; font-weight: 700; font-style: normal; }
+
     &-demibold { font-family: 'AvenirNext'; font-weight: 600; font-style: normal; }
+
     &-medium { font-family: 'AvenirNext'; font-weight: 500; font-style: normal; }
+
     &-medium-italic { font-family: 'AvenirNext'; font-weight: 500; font-style: italic; }
+
     &-regular { font-family: 'AvenirNext'; font-weight: 400; font-style: normal; }
+
     &-light { font-family: 'AvenirNext'; font-weight: 300; font-style: normal; }
 }
 
@@ -74,16 +86,24 @@
 .hyundai-sans {
     // Hyundai: Head
     &-head-bold { font-family: 'HyundaiSansHead'; font-weight: 700; font-style: normal; }
+
     &-head-medium { font-family: 'HyundaiSansHead'; font-weight: 500; font-style: normal; }
+
     &-head-regular { font-family: 'HyundaiSansHead'; font-weight: normal; font-style: normal; }
+
     &-head-light { font-family: 'HyundaiSansHead'; font-weight: 300; font-style: normal; }
 
     // Hyundai: Text
     &-text-bold { font-family: 'HyundaiSansText'; font-weight: 600; font-style: normal; }
+
     &-text-bold-italic { font-family: 'HyundaiSansText'; font-weight: 600; font-style: italic; }
+
     &-text-medium { font-family: 'HyundaiSansText'; font-weight: 500; font-style: normal; }
+
     &-text-medium-italic { font-family: 'HyundaiSansText'; font-weight: 500; font-style: italic; }
+
     &-text-italic { font-family: 'HyundaiSansText'; font-weight: normal; font-style: italic; }
+
     &-text-regular { font-family: 'HyundaiSansText'; font-weight: normal; font-style: normal; }
 }
 
@@ -102,6 +122,7 @@
 
     // Mercedes-Benz: Text
     &-cs-regular { font-family: 'Corporate S Regular'; font-weight: 400; font-style: normal; }
+
     &-cs-demi { font-family: 'Corporate S Bold'; font-weight: 600; font-style: normal; }
 }
 
@@ -116,10 +137,15 @@
 //// ==========================================================================
 .renault {
     &-bold { font-family: 'Renault Life'; font-weight: 700; font-style: normal; }
+
     &-bold-italic { font-family: 'Renault Life'; font-weight: 700; font-style: italic; }
+
     &-regular { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
+
     &-italic { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
+
     &-light { font-family: 'Renault Life'; font-weight: 300; font-style: normal; }
+
     &-light-italic { font-family: 'Renault Life'; font-weight: 300; font-style: italic; }
 }
 
@@ -127,6 +153,8 @@
 //// ==========================================================================
 .fiat {
     &-pro { font-family: 'fiatpro'; font-weight: 400; font-style: normal; }
+
     &-mopar { font-family: 'mopar-fiat'; font-weight: 400; font-style: normal; }
+
     &-mopar-private { font-family: 'mopar-private-fiat'; font-weight: 400; font-style: italic; }
 }
