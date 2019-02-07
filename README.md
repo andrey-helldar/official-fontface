@@ -99,9 +99,9 @@ The package contains official fonts of companies:
 
 #### Mercedes-Benz
 ```css
-.mercedes-benz-cac-regular { font-family: 'Corporate A Condensed'; font-weight: 400;  }
-.mercedes-benz-cs-regular  { font-family: 'Corporate S Regular';   font-weight: 400; }
-.mercedes-benz-cs-demi     { font-family: 'Corporate S Bold';      font-weight: 600; }
+.mercedes-benz-a-regular { font-family: 'Corporate A'; font-weight: 400;  }
+.mercedes-benz-s-regular {  font-family: 'Corporate S'; font-weight: 400; }
+.mercedes-benz-s-demi    {  font-family: 'Corporate S'; font-weight: 600; }
 ```
 
 #### Mitsubishi
