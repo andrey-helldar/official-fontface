@@ -1,4 +1,4 @@
-let mix = require('laravel-mix');
+const mix = require('laravel-mix');
 
 const base_path = './src/scss/';
 const public_path = './dist/';
@@ -20,5 +20,4 @@ mix
     .sass(company_path + 'mitsubishi.scss', css_path)
     .sass(company_path + 'renault.scss', css_path)
 
-    .disableNotifications()
     .version();

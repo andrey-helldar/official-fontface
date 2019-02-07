@@ -1,13 +1,13 @@
 {
     "name": "official-fontface",
-    "description": "Set of official fonts of companies in SCSS",
+    "description": "Set of official fonts of companies in SASS",
     "author": "Andrey Helldar",
     "version": "1.3.0",
     "license": "MIT",
     "keywords": [
-        "fonts",
-        "fontface",
         "fiat",
+        "fontface",
+        "fonts",
         "ford",
         "honda",
         "hyundai",
@@ -15,26 +15,30 @@
         "mercedes-benz",
         "mitsubishi"
     ],
+    "bugs": "https://github.com/andrey-helldar/official-fontface/issues",
     "style": "dist/css/official-fontface.css",
     "sass": "src/scss/official-fontface.scss",
     "devDependencies": {
         "cross-env": "^5.2",
-        "laravel-mix": "^2.1",
+        "laravel-mix": "^4.0",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3",
+        "sass": "^1.15",
+        "sass-loader": "^7.1",
         "stylelint": "^9.4",
         "stylelint-config-standard": "^18.2"
     },
-    "engine": "node >= 6",
+    "engine": "node >= 8",
     "scripts": {
         "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "test": "yarn dev && stylelint dist/css/official-fontface.css"
     },
     "repository": {
         "type": "git",
         "url": "git@github.com:andrey-helldar/official-fontface.git"
     },
-    "bugs": "https://github.com/andrey-helldar/official-fontface/issues",
     "files": [
         "dist",
         "src",
