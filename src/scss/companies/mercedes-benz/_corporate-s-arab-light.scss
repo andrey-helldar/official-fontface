@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Corporate S Arab';
+    font-weight: 300;
+    font-style: normal;
+
+    src: local('Daimler CS Arab'),
+    url('../../../fonts/mercedes-benz/DaimlerCSArab-Light/DaimlerCSArab-Light.eot'),
+    url('../../../fonts/mercedes-benz/DaimlerCSArab-Light/DaimlerCSArab-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../../fonts/mercedes-benz/DaimlerCSArab-Light/DaimlerCSArab-Light.woff2') format('woff2'),
+    url('../../../fonts/mercedes-benz/DaimlerCSArab-Light/DaimlerCSArab-Light.woff') format('woff'),
+    url('../../../fonts/mercedes-benz/DaimlerCSArab-Light/DaimlerCSArab-Light.ttf') format('truetype'),
+    url('../../../fonts/mercedes-benz/DaimlerCSArab-Light/DaimlerCSArab-Light.svg#Daimler-CS-Arab-Light') format('svg');
+}
