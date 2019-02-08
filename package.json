@@ -2,7 +2,7 @@
     "name": "official-fontface",
     "description": "Set of official fonts of companies in SASS",
     "author": "Andrey Helldar",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "license": "MIT",
     "keywords": [
         "fiat",
