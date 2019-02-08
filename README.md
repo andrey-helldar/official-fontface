@@ -105,7 +105,7 @@ The package contains official fonts of companies:
 .mercedes-benz-s-regular { font-family: 'Corporate S'; font-weight: 400; }
 .mercedes-benz-s-demi    { font-family: 'Corporate S'; font-weight: 600; }
 
-.mercedes-benz-a-arab-regular { font-family: 'Corporate S Arab'; font-weight: 400; }
+.mercedes-benz-a-arab-regular { font-family: 'Corporate A Arab'; font-weight: 400; }
 
 .mercedes-benz-s-arab-light   { font-family: 'Corporate S Arab'; font-weight: 300; }
 .mercedes-benz-s-arab-regular { font-family: 'Corporate S Arab'; font-weight: 400; }
