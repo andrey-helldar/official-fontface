@@ -18,17 +18,6 @@
     "bugs": "https://github.com/andrey-helldar/official-fontface/issues",
     "style": "dist/css/official-fontface.css",
     "sass": "src/scss/official-fontface.scss",
-    "devDependencies": {
-        "cross-env": "^5.2",
-        "laravel-mix": "^4.0",
-        "popper.js": "^1.12",
-        "resolve-url-loader": "^2.3",
-        "sass": "^1.15",
-        "sass-loader": "^7.1",
-        "stylelint": "^9.4",
-        "stylelint-config-standard": "^18.2"
-    },
-    "engine": "node >= 8",
     "scripts": {
         "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -38,6 +27,20 @@
     "repository": {
         "type": "git",
         "url": "git@github.com:andrey-helldar/official-fontface.git"
+    },
+    "engine": "node >= 10.14",
+    "dependencies": {
+        "normalize.css": "^8.0.1"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.0",
+        "laravel-mix": "^5.0.0",
+        "popper.js": "^1.16.0",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.25.0",
+        "sass-loader": "^8.0.0",
+        "stylelint": "^13.0.0",
+        "stylelint-config-standard": "^19.0.0"
     },
     "files": [
         "dist",
@@ -61,8 +64,5 @@
             "number-leading-zero": "never",
             "max-empty-lines": 2
         }
-    },
-    "dependencies": {
-        "normalize.css": "^8.0.1"
     }
 }
