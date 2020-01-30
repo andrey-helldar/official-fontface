@@ -5,15 +5,17 @@
     "version": "1.6.0",
     "license": "MIT",
     "keywords": [
-        "fiat",
         "fontface",
         "fonts",
+        "fiat",
         "ford",
         "honda",
         "hyundai",
         "isuzu",
         "mercedes-benz",
-        "mitsubishi"
+        "mitsubishi",
+        "opel",
+        "renault"
     ],
     "bugs": "https://github.com/andrey-helldar/official-fontface/issues",
     "style": "dist/css/official-fontface.css",
