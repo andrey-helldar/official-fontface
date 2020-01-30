@@ -36,6 +36,7 @@ The package contains official fonts of companies:
     * [Isuzu](#isuzu)
     * [Mercedes-Benz](#mercedes-benz)
     * [Mitsubishi](#mitsubishi)
+    * [Opel](#opel)
     * [Renault](#renault)
 
 ### Cars
@@ -113,6 +114,14 @@ The package contains official fonts of companies:
 .mitsubishi-regular { font-family: 'Bitsumishi'; font-weight: 400; font-style: normal; }
 ```
 
+#### Opel
+```css
+.opel-regular { font-family: 'Opel Sans Condensed'; font-weight: 400; font-style: normal; }
+.opel-regular-italic { font-family: 'Opel Sans Condensed'; font-weight: 400; font-style: italic; }
+.opel-bold { font-family: 'Opel Sans Condensed'; font-weight: 700; font-style: normal; }
+.opel-extra-bold { font-family: 'Opel Sans Condensed'; font-weight: 800; font-style: normal; }
+```
+
 #### Renault
 ```css
 .renault-bold { font-family: 'Renault Life';         font-weight: 700; font-style: normal; }
@@ -122,6 +131,8 @@ The package contains official fonts of companies:
 .renault-light { font-family: 'Renault Life';        font-weight: 300; font-style: normal; }
 .renault-light-italic { font-family: 'Renault Life'; font-weight: 300; font-style: italic; }
 ```
+
+## Examples
 
 And see [test.html](tests/test.html) as example.
 
@@ -139,11 +150,15 @@ You can use all fonts:
 
 Or you can use certain fonts pack in your application:
 ```scss
+@import "~official-fontface/src/scss/companies/fiat";
 @import "~official-fontface/src/scss/companies/ford";
+@import "~official-fontface/src/scss/companies/honda";
 @import "~official-fontface/src/scss/companies/hyundai";
 @import "~official-fontface/src/scss/companies/isuzu";
 @import "~official-fontface/src/scss/companies/mercedes-benz";
 @import "~official-fontface/src/scss/companies/mitsubishi";
+@import "~official-fontface/src/scss/companies/opel";
+@import "~official-fontface/src/scss/companies/renault";
 ```
 
 Or connect a specific font. For example:
@@ -151,6 +166,7 @@ Or connect a specific font. For example:
 @import "~official-fontface/src/scss/companies/mercedes-benz/corporate-a-condensed";
 @import "~official-fontface/src/scss/companies/hyundai/hyundai-sans-head-regular";
 @import "~official-fontface/src/scss/companies/ford/fordantennacond-regular";
+@import "~official-fontface/src/scss/companies/opel/opel_sans-regular";
 ```
 
 ### CSS
