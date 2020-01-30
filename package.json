@@ -56,10 +56,10 @@
                     ]
                 }
             ],
-            "indentation": 4,
+            "indentation": 2,
             "declaration-block-single-line-max-declarations": 5,
-            "font-family-no-missing-generic-family-keyword": false,
-            "number-leading-zero": "never"
+            "number-leading-zero": "never",
+            "max-empty-lines": 2
         }
     }
 }
