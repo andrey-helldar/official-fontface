@@ -13,18 +13,22 @@ Set of official fonts of companies in SCSS.
 
 ## Installation
 
-**NPM**
+**npm** ([download](https://nodejs.org/en/))
 ```bash
 npm i --save-dev official-fontface
 ```
 
-**Yarn**
+**yarn** ([download](https://yarnpkg.com/getting-started/install))
 ```
 yarn add --dev official-fontface
 ```
 
 
 ## What does it do?
+
+The package provides only `@font-face` attribute. To use the desired font, you need to register its name in the `font-family` attribute of your CSS files.
+
+Below is an example of how this can be done.
 
 The package contains official fonts of companies:
 
