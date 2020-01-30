@@ -1,5 +1,8 @@
 /.idea
 /node_modules
+
+dist/mix-manifest.json
+
 *.log
 *.orig
-*/mix-manifest.json
+*dump
