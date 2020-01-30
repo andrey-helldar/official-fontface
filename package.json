@@ -61,5 +61,8 @@
             "number-leading-zero": "never",
             "max-empty-lines": 2
         }
+    },
+    "dependencies": {
+        "normalize.css": "^8.0.1"
     }
 }
