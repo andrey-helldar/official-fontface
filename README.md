@@ -120,10 +120,10 @@ The package contains official fonts of companies:
 
 #### Opel
 ```css
-.opel-regular        { font-family: 'Opel Sans Condensed'; font-weight: 400; font-style: normal; }
-.opel-regular-italic { font-family: 'Opel Sans Condensed'; font-weight: 400; font-style: italic; }
-.opel-bold           { font-family: 'Opel Sans Condensed'; font-weight: 700; font-style: normal; }
-.opel-extra-bold     { font-family: 'Opel Sans Condensed'; font-weight: 800; font-style: normal; }
+.opel-regular        { font-family: 'Opel Sans Condensed'; font-weight: 400; font-style: normal; font-stretch: condensed; }
+.opel-regular-italic { font-family: 'Opel Sans Condensed'; font-weight: 400; font-style: italic; font-stretch: condensed; }
+.opel-bold           { font-family: 'Opel Sans Condensed'; font-weight: 700; font-style: normal; font-stretch: condensed; }
+.opel-extra-bold     { font-family: 'Opel Sans Condensed'; font-weight: 800; font-style: normal; font-stretch: condensed; }
 ```
 
 #### Renault
