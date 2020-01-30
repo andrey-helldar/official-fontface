@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Opel Sans Condensed';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: condensed;
+
+    src: local('Opel Sans Condensed'),
+    url('../../../fonts/opel/OpelSans-Condensed-RegularItalic/OpelSansCondensedRegularItalic.eot'),
+    url('../../../fonts/opel/OpelSans-Condensed-RegularItalic/OpelSansCondensedRegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('../../../fonts/opel/OpelSans-Condensed-RegularItalic/OpelSansCondensedRegularItalic.woff2') format('woff2'),
+    url('../../../fonts/opel/OpelSans-Condensed-RegularItalic/OpelSansCondensedRegularItalic.woff') format('woff'),
+    url('../../../fonts/opel/OpelSans-Condensed-RegularItalic/OpelSansCondensedRegularItalic.ttf') format('truetype'),
+    url('../../../fonts/opel/OpelSans-Condensed-RegularItalic/OpelSansCondensedRegularItalic.svg#OpelSans-Condensed') format('svg');
+}
