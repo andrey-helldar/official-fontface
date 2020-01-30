@@ -116,19 +116,19 @@ The package contains official fonts of companies:
 
 #### Opel
 ```css
-.opel-regular { font-family: 'Opel Sans Condensed'; font-weight: 400; font-style: normal; }
+.opel-regular        { font-family: 'Opel Sans Condensed'; font-weight: 400; font-style: normal; }
 .opel-regular-italic { font-family: 'Opel Sans Condensed'; font-weight: 400; font-style: italic; }
-.opel-bold { font-family: 'Opel Sans Condensed'; font-weight: 700; font-style: normal; }
-.opel-extra-bold { font-family: 'Opel Sans Condensed'; font-weight: 800; font-style: normal; }
+.opel-bold           { font-family: 'Opel Sans Condensed'; font-weight: 700; font-style: normal; }
+.opel-extra-bold     { font-family: 'Opel Sans Condensed'; font-weight: 800; font-style: normal; }
 ```
 
 #### Renault
 ```css
-.renault-bold { font-family: 'Renault Life';         font-weight: 700; font-style: normal; }
-.renault-bold-italic { font-family: 'Renault Life';  font-weight: 700; font-style: italic; }
-.renault-regular { font-family: 'Renault Life';      font-weight: 400; font-style: normal; }
-.renault-italic { font-family: 'Renault Life';       font-weight: 400; font-style: normal; }
-.renault-light { font-family: 'Renault Life';        font-weight: 300; font-style: normal; }
+.renault-bold         { font-family: 'Renault Life'; font-weight: 700; font-style: normal; }
+.renault-bold-italic  { font-family: 'Renault Life'; font-weight: 700; font-style: italic; }
+.renault-regular      { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
+.renault-italic       { font-family: 'Renault Life'; font-weight: 400; font-style: normal; }
+.renault-light        { font-family: 'Renault Life'; font-weight: 300; font-style: normal; }
 .renault-light-italic { font-family: 'Renault Life'; font-weight: 300; font-style: italic; }
 ```
 
