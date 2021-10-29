@@ -2,7 +2,7 @@
 
 Set of official fonts of companies in SCSS.
 
-![official-fontface](https://user-images.githubusercontent.com/10347617/44003020-8225eea0-9e54-11e8-8df8-0c20f5856cc3.png)
+<img src="https://preview.dragon-code.pro/andrey-helldar/official-fontface.svg" alt="Official Fontface"/>
 
 
 <p align="center">
@@ -279,10 +279,3 @@ Or, simply by creating a [issue](https://github.com/andrey-helldar/official-font
 ## License
 
 This package is licensed under the [MIT License](LICENSE).
-
-
-## For Enterprise
-
-Available as part of the Tidelift Subscription.
-
-The maintainers of `official-fontface` and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source packages you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact packages you use. [Learn more](https://tidelift.com/subscription/pkg/npm-official-fontface?utm_source=npm-official-fontface&utm_medium=referral&utm_campaign=enterprise&utm_term=repo).
